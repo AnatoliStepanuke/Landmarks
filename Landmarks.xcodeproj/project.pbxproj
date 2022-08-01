@@ -59,8 +59,8 @@
 				DC55E0F128981EF5001E0293 /* CircleImage.swift */,
 				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
 				DCB0FBB528942CBC00BC2481 /* LandmarksApp.swift */,
-				DCB0FBBB28942CBE00BC2481 /* Preview Content */,
 				DC55E0F32898628C001E0293 /* MapView.swift */,
+				DCB0FBBB28942CBE00BC2481 /* Preview Content */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
