@@ -3,12 +3,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            // MARK: - MapView()
             MapView()
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
+            // MARK: - CircleImage()
             CircleImage()
                 .offset(y: -130)
                 .padding(.bottom, -130)
+            // MARK: - Detail view
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
