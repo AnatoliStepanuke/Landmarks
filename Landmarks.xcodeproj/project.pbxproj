@@ -16,6 +16,7 @@
 		DCC746072899334800DFB735 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DCC746062899334700DFB735 /* landmarkData.json */; };
 		DCC7460E289934D800DFB735 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7460D289934D800DFB735 /* Landmark.swift */; };
 		DCC7461028994E6400DFB735 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7460F28994E6400DFB735 /* ModelData.swift */; };
+		DCC74612289952D800DFB735 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC74611289952D800DFB735 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DCC746062899334700DFB735 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		DCC7460D289934D800DFB735 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		DCC7460F28994E6400DFB735 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		DCC74611289952D800DFB735 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				DC55E0F32898628C001E0293 /* MapView.swift */,
 				DC55E0F128981EF5001E0293 /* CircleImage.swift */,
 				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
+				DCC74611289952D800DFB735 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				DCB0FBB628942CBC00BC2481 /* LandmarksApp.swift in Sources */,
 				DC55E0F228981EF5001E0293 /* CircleImage.swift in Sources */,
 				DCC7460E289934D800DFB735 /* Landmark.swift in Sources */,
+				DCC74612289952D800DFB735 /* LandmarkRow.swift in Sources */,
 				DCC7461028994E6400DFB735 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,7 @@
 import SwiftUI
 import MapKit
 
+// MARK: - View
 struct MapView: View {
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868),
@@ -11,6 +12,7 @@ struct MapView: View {
     }
 }
 
+// MARK: - PreviewProvider
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView()

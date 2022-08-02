@@ -1,5 +1,6 @@
 import SwiftUI
 
+// MARK: - View
 struct CircleImage: View {
     var body: some View {
         Image("turtlerock")
@@ -11,6 +12,7 @@ struct CircleImage: View {
     }
 }
 
+// MARK: - PreviewProvider
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
         CircleImage()
