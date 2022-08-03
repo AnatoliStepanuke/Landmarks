@@ -9,8 +9,9 @@ struct LandmarkRow: View {
         HStack {
             landmark.image
                 .resizable()
-                .frame(width: 50, height: 50)
+                .frame(width: 65, height: 65)
                 .clipShape(Circle())
+                .padding()
             Text(landmark.name)
             Spacer()
         }
