@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+struct Landmark: Hashable, Codable, Identifiable {
     // MARK: - Properties
     // MARK: Private
     private var imageName: String
