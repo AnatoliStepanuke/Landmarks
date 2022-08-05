@@ -1,10 +1,11 @@
 import SwiftUI
 
-// MARK: - View
+// MARK: View
 struct LandmarkRow: View {
     // MARK: - Properties
     var landmark: Landmark
 
+    // MARK: - Body
     var body: some View {
         HStack {
             landmark.image
@@ -14,11 +15,16 @@ struct LandmarkRow: View {
                 .padding()
             Text(landmark.name)
             Spacer()
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .padding()
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
 
-// MARK: - PreviewProvider
+// MARK: PreviewProvider
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {

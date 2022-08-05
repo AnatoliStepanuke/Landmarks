@@ -198,7 +198,7 @@
         "state": "Brest region",
         "id": 1013,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "National park of Belarus",
         "coordinates": {
             "longitude": 23.4747,
