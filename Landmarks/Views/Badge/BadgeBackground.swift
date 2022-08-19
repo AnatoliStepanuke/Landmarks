@@ -1,6 +1,13 @@
 import SwiftUI
 
+// MARK: View
 struct BadgeBackground: View {
+    // MARK: - Properties
+    // Static
+    static let gradientStart = Color(red: 239.0 / 255, green: 120.0 / 255, blue: 221.0 / 255)
+    static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
+
+    // MARK: - Body
     var body: some View {
         GeometryReader { geometry in
             Path { path in
@@ -47,10 +54,9 @@ struct BadgeBackground: View {
         }
         .aspectRatio(1, contentMode: .fit)
     }
-    static let gradientStart = Color(red: 239.0 / 255, green: 120.0 / 255, blue: 221.0 / 255)
-    static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }
 
+// MARK: PreviewProvider
 struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
         BadgeBackground()
