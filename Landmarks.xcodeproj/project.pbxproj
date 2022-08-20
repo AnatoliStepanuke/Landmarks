@@ -90,7 +90,7 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		DC40644228AFCDE100372DAB /* Badge */ = {
+		DC40644228AFCDE100372DAB /* Badges */ = {
 			isa = PBXGroup;
 			children = (
 				DC40644028AFB9F300372DAB /* BadgeSymbol.swift */,
@@ -99,7 +99,7 @@
 				DC4E4ED428AFCF6300BD87A6 /* Badge.swift */,
 				DC4E4ED628AFD12C00BD87A6 /* RotatedBadgeSymbol.swift */,
 			);
-			path = Badge;
+			path = Badges;
 			sourceTree = "<group>";
 		};
 		DCB0FBA928942CBC00BC2481 = {
@@ -159,7 +159,7 @@
 		DCC7460A289933F400DFB735 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DC40644228AFCDE100372DAB /* Badge */,
+				DC40644228AFCDE100372DAB /* Badges */,
 				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
 				DC2E20BB289D4EFC0097BF61 /* Helpers */,
 				DC2E20BA289D4EDF0097BF61 /* Landmarks */,
