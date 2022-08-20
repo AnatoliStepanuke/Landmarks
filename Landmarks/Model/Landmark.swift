@@ -8,6 +8,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     private var imageName: String
     private var coordinates: Coordinates
 
+    // MARK: Public
     var id: Int
     var name: String
     var park: String
