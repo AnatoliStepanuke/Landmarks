@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1FA17B28B3BDD6002D479E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FA17A28B3BDD6002D479E /* CategoryRow.swift */; };
+		DC1FA17D28B3C514002D479E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FA17C28B3C514002D479E /* CategoryItem.swift */; };
 		DC241BEB289A79C40039D6E9 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC241BEA289A79C40039D6E9 /* LandmarkDetail.swift */; };
 		DC2E20B5289D43B60097BF61 /* ModelData+constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2E20B4289D43B60097BF61 /* ModelData+constants.swift */; };
 		DC2E20B9289D49500097BF61 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2E20B8289D49500097BF61 /* FavoriteButton.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1FA17A28B3BDD6002D479E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		DC1FA17C28B3C514002D479E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		DC241BEA289A79C40039D6E9 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		DC2E20B4289D43B60097BF61 /* ModelData+constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelData+constants.swift"; sourceTree = "<group>"; };
 		DC2E20B8289D49500097BF61 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				DC4E4EE628B0FCCE00BD87A6 /* CategoryHome.swift */,
+				DC1FA17A28B3BDD6002D479E /* CategoryRow.swift */,
+				DC1FA17C28B3C514002D479E /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -299,9 +305,11 @@
 				DCB0FBB828942CBC00BC2481 /* ContentView.swift in Sources */,
 				DC4E4EE728B0FCCE00BD87A6 /* CategoryHome.swift in Sources */,
 				DC4E4EE228B0EB0C00BD87A6 /* HikeGraph.swift in Sources */,
+				DC1FA17B28B3BDD6002D479E /* CategoryRow.swift in Sources */,
 				DC55E0F42898628C001E0293 /* MapView.swift in Sources */,
 				DCB0FBB628942CBC00BC2481 /* LandmarksApp.swift in Sources */,
 				DC7FF0C028998C9000A9FAD7 /* LandmarkList.swift in Sources */,
+				DC1FA17D28B3C514002D479E /* CategoryItem.swift in Sources */,
 				DC241BEB289A79C40039D6E9 /* LandmarkDetail.swift in Sources */,
 				DC55E0F228981EF5001E0293 /* CircleImage.swift in Sources */,
 				DC40644128AFB9F300372DAB /* BadgeSymbol.swift in Sources */,
