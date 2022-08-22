@@ -2,10 +2,18 @@ import Foundation
 import Combine
 
 final class ModelData: ObservableObject {
+    // MARK: - Properties
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
-}
 
+    // MARK: - Computed dictionaries
+    var categories: [String: [Landmark]] {
+        Dictionary(
+            grouping: landmarks,
+            by: { $0.category.rawValue }
+        )
+    }
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

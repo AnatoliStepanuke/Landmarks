@@ -193,9 +193,9 @@
 		DCC7460A289933F400DFB735 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
 				DC40644228AFCDE100372DAB /* Badges */,
 				DC4E4EE528B0FCAE00BD87A6 /* Categories */,
-				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
 				DC2E20BB289D4EFC0097BF61 /* Helpers */,
 				DC4E4EDC28B0EB0C00BD87A6 /* Hikes */,
 				DC2E20BA289D4EDF0097BF61 /* Landmarks */,
