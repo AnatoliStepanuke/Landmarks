@@ -4,6 +4,7 @@ import Combine
 final class ModelData: ObservableObject {
     // MARK: - Properties
     @Published var landmarks: [Landmark] = load("landmarkData.json")
+    @Published var profile = Profile.default
     var hikes: [Hike] = load("hikeData.json")
 
     // MARK: - Computed properties

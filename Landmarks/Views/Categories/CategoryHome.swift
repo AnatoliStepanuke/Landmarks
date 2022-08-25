@@ -4,6 +4,7 @@ import SwiftUI
 struct CategoryHome: View {
     // MARK: - Properties
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
     
     // MARK: - Body
     var body: some View {
@@ -24,6 +25,17 @@ struct CategoryHome: View {
             }
             .listStyle(.inset)
             .navigationTitle("Featured")
+            .toolbar {
+                Button {
+                    showingProfile.toggle()
+                } label: {
+                    Label("User Profile", systemImage: "person.crop.circle")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+                    .environmentObject(modelData)
+            }
         }
     }
 }
