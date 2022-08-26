@@ -10,6 +10,7 @@ struct CategoryHome: View {
     var body: some View {
         // MARK: - NavigationView
         NavigationView {
+            // Landmarks
             List {
                 modelData.features[2].image
                     .resizable()
@@ -17,13 +18,17 @@ struct CategoryHome: View {
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
+                    .padding(.bottom)
 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: modelData.categories[key] ?? modelData.landmarks)
                 }
                 .listRowInsets(EdgeInsets())
             }
+            
             .listStyle(.inset)
+
+            // Navigation
             .navigationTitle("Featured")
             .toolbar {
                 Button {
@@ -31,6 +36,7 @@ struct CategoryHome: View {
                 } label: {
                     Label("User Profile", systemImage: "person.crop.circle")
                 }
+                .foregroundColor(.black)
             }
             .sheet(isPresented: $showingProfile) {
                 ProfileHost()
