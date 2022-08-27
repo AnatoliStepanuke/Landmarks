@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC074FF028BA1E2A0081F3A6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC074FEF28BA1E2A0081F3A6 /* PageViewController.swift */; };
 		DC1FA17B28B3BDD6002D479E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FA17A28B3BDD6002D479E /* CategoryRow.swift */; };
 		DC1FA17D28B3C514002D479E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FA17C28B3C514002D479E /* CategoryItem.swift */; };
 		DC1FA18128B3E773002D479E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FA18028B3E773002D479E /* Profile.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC074FEF28BA1E2A0081F3A6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DC1FA17A28B3BDD6002D479E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		DC1FA17C28B3C514002D479E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		DC1FA18028B3E773002D479E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC074FEE28BA1E050081F3A6 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				DC074FEF28BA1E2A0081F3A6 /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		DC1FA18228B3E9B4002D479E /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +230,7 @@
 		DCC7460A289933F400DFB735 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DC074FEE28BA1E050081F3A6 /* PageView */,
 				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
 				DC40644228AFCDE100372DAB /* Badges */,
 				DC4E4EE528B0FCAE00BD87A6 /* Categories */,
@@ -343,6 +354,7 @@
 				DCC7460E289934D800DFB735 /* Landmark.swift in Sources */,
 				DC40643F28AD6C2700372DAB /* BadgeBackground.swift in Sources */,
 				DC1FA18128B3E773002D479E /* Profile.swift in Sources */,
+				DC074FF028BA1E2A0081F3A6 /* PageViewController.swift in Sources */,
 				DC2E20B5289D43B60097BF61 /* ModelData+constants.swift in Sources */,
 				DCC74612289952D800DFB735 /* LandmarkRow.swift in Sources */,
 				DC4E4EE128B0EB0C00BD87A6 /* GraphCapsule.swift in Sources */,
