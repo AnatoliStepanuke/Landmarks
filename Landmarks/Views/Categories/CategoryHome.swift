@@ -12,13 +12,9 @@ struct CategoryHome: View {
         NavigationView {
             // Landmarks
             List {
-                modelData.features[2].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(pages: ModelData.Constants.features.map{ FeatureCard(landmark: $0) })
+                    .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
-                    .padding(.bottom)
 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: modelData.categories[key] ?? modelData.landmarks)
