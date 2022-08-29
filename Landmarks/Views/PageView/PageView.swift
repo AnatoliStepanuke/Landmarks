@@ -8,9 +8,11 @@ struct PageView<Page: View>: View {
 
     // MARK: - Body
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(pages: pages, currentPage: $currentPage)
-            Text("Current Page: \(currentPage)")
+            PageControl(numberOfPages: pages.count, currentPage: $currentPage)
+                .frame(width: CGFloat(pages.count * 18))
+                .padding(.trailing)
         }
     }
 }
@@ -19,7 +21,7 @@ struct PageView<Page: View>: View {
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
         PageView(pages: ModelData.Constants.features.map { FeatureCard(landmark: $0)
-                .aspectRatio(3 / 2, contentMode: .fit)
         })
+        .aspectRatio(3 / 2, contentMode: .fit)
     }
 }

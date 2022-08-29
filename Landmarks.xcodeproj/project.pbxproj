@@ -43,6 +43,7 @@
 		DCE0669028B4D57E00A16C76 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0668F28B4D57E00A16C76 /* HikeBadge.swift */; };
 		DCF5FC1F28BBAA97006BE6D4 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5FC1E28BBAA97006BE6D4 /* PageView.swift */; };
 		DCF5FC2128BBC8F4006BE6D4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5FC2028BBC8F4006BE6D4 /* PageViewController.swift */; };
+		DCF5FC2328BCBEB9006BE6D4 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5FC2228BCBEB9006BE6D4 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		DCE0668F28B4D57E00A16C76 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		DCF5FC1E28BBAA97006BE6D4 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		DCF5FC2028BBC8F4006BE6D4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		DCF5FC2228BCBEB9006BE6D4 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DC074FF528BBA3350081F3A6 /* FeatureCard.swift */,
 				DCF5FC1E28BBAA97006BE6D4 /* PageView.swift */,
 				DCF5FC2028BBC8F4006BE6D4 /* PageViewController.swift */,
+				DCF5FC2228BCBEB9006BE6D4 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -236,8 +239,8 @@
 		DCC7460A289933F400DFB735 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DC074FEE28BA1E050081F3A6 /* PageView */,
 				DCB0FBB728942CBC00BC2481 /* ContentView.swift */,
+				DC074FEE28BA1E050081F3A6 /* PageView */,
 				DC40644228AFCDE100372DAB /* Badges */,
 				DC4E4EE528B0FCAE00BD87A6 /* Categories */,
 				DC2E20BB289D4EFC0097BF61 /* Helpers */,
@@ -347,6 +350,7 @@
 				DC4E4EE728B0FCCE00BD87A6 /* CategoryHome.swift in Sources */,
 				DC1FA18428B3E9E8002D479E /* ProfileHost.swift in Sources */,
 				DCE0669028B4D57E00A16C76 /* HikeBadge.swift in Sources */,
+				DCF5FC2328BCBEB9006BE6D4 /* PageControl.swift in Sources */,
 				DC4E4EE228B0EB0C00BD87A6 /* HikeGraph.swift in Sources */,
 				DC1FA17B28B3BDD6002D479E /* CategoryRow.swift in Sources */,
 				DC55E0F42898628C001E0293 /* MapView.swift in Sources */,
