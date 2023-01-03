@@ -1,5 +1,5 @@
 # Landmarks
-Landmarks — an app for discovering and mark to favorite places you love. SwiftUI Tutorials | Apple Developer Documentation
+Landmarks — an app for discovering and marking favorite places you love. SwiftUI Tutorials | Apple Developer Documentation
 
 ## Technologies
 + SwiftUI
